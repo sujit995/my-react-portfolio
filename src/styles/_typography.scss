@@ -1,0 +1,53 @@
+.HomePage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 3.6rem;
+  span {
+    color: #b31919;
+    font-size: 75px;
+  }
+  .text-2 {
+    font-size: 30px;
+  }
+}
+.typing {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 1.2rem;
+}
+
+.h-sub-text {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  .icon-holder {
+    margin-right: 1rem;
+    .icon {
+      font-size: 1.7rem;
+      color: #fff;
+      transition: all 0.4s ease-in-out;
+    }
+    .ig:hover {
+      color: #dd2a7b;
+    }
+    .gh:hover {
+      color: #000;
+    }
+    .ln:hover {
+      color: #0072b1;
+    }
+  }
+}
