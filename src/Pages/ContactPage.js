@@ -9,7 +9,7 @@ function ContactPage() {
     return (
         <div>
             <div className="title">
-                <Tittle title={'About Me'} span={'About Me'} />
+                <Tittle title={'Contact Me'} span={'Contact Me'} />
             </div>
             <div className="ContactPage">
                 <div className="map-sect">
